@@ -163,7 +163,7 @@ def cacheplayfabid():
 
 @app.route('/api/TitleData', methods=['POST'])
 def titled_data():
-    return jsonify({"MOTD":"<color=yellow>WELCOME TO OG TAGGERS</color>\n\n<color=purple>CHRISTMAS 24</color>\n\n\n<color=magenta>DISCORD: no discord yet.</color>\n<color=orange>GAME IS VERY TUFF</color>"})
+    return jsonify({"MOTD":"<color=yellow>WELCOME TO OG TAGGERS</color>\n\n<color=purple>CHRISTMAS 24</color>\n\n\n<color=magenta>DISCORD: no discord yet.</color>\n<color=orange>i honestly have no idea why i named it og runners. this update is from very late 2024 lmao.</color>"})
 
 
 
