@@ -62,7 +62,7 @@ def GetIsNonceValid(nonce: str, oculusId: str):
 
 @app.route("/", methods=["POST", "GET"])
 def main():
-    return "your not supposed to be here .."
+    return "This is a backend for OG Taggers/OG Runners. You can't view this page in a web browser because it's an API."
 
 
 # Replace https://auth-prod.gtag-cf.com/api/PlayFabAuthentication with this endpoint
@@ -126,7 +126,7 @@ def playfabauthentication():
 
         print(
             requests.post(
-                url=f"https://{titleider}.playfabapi.com/Client/LinkCustomID",
+                url=f"https://EAE1B.playfabapi.com/Client/LinkCustomID",
                 json={
                     "ForceLink": True,
                     "CustomId": rjson.get("CustomId")
